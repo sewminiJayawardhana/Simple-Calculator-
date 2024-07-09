@@ -47,7 +47,6 @@ root.geometry(f'{width}x{height}+{left}+{top}')
 root.title("My Calculator")
 root.resizable(False,False)
 root.iconbitmap('icon1.ico')
-#root.configure(bg='gray')
 
 text_result = tk.Text(root,height=2.7 ,width=16 ,font=("Arial",24), bg='#eff5f3')
 text_result.grid(columnspan=5)
